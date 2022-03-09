@@ -4,7 +4,8 @@
             "name": "Whitworth CS",
             "includePath": [
                 "\"${workspaceFolder}\"/**",
-                "\"C:/googletest/include\""
+                "\"C:/googletest/include\"",
+                "${workspaceFolder}/headers"
             ],
             "defines": [
                 "_DEBUG"
@@ -13,6 +14,21 @@
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x64"
+        },
+        {
+            "name": "win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\mingw-w64\\mingw64\\bin\\gcc.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4
